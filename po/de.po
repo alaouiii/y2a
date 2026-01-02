@@ -1,0 +1,291 @@
+# German translations for video-downloader package.
+# Copyright (C) 2020 THE video-downloader'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the video-downloader package.
+# Roy Meissner <roy-meissner@gmx.net>, 2020.
+# Unrud <unrud@outlook.com>, 2023.
+# AnjaRuni <anjaeisemann@posteo.de>, 2025.
+# HenRy <helge1o1o1@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: video-downloader\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-13 19:20+0200\n"
+"PO-Revision-Date: 2025-10-13 14:07+0000\n"
+"Last-Translator: HenRy <helge1o1o1@gmail.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/video-downloader/"
+"gui/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14-dev\n"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:7
+#: data/com.github.unrud.VideoDownloader.desktop.in:3 src/about_dialog.ui.in:27
+#: src/main.py:39 src/window.ui:50
+msgid "Video Downloader"
+msgstr "Video Downloader"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:8
+#: data/com.github.unrud.VideoDownloader.desktop.in:4
+msgid "Download web videos"
+msgstr "Webvideos herunterladen"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:10
+msgid ""
+"Download videos from websites with an easy-to-use interface. Provides the "
+"following features:"
+msgstr ""
+"Über eine einfach zu bedienende Oberfläche können Videos von vielen "
+"Webseiten heruntergeladen werden. Das Programm bietet:"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:15
+msgid "Convert videos to MP3"
+msgstr "Videos zu MP3 konvertieren"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:16
+msgid "Supports password-protected and private videos"
+msgstr "Unterstützt passwortgeschützte und private Videos"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:17
+msgid "Download single videos or whole playlists"
+msgstr "Einzelne Videos und ganze Wiedergabelisten herunterladen"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:18
+msgid "Automatically selects a video format based on your quality demands"
+msgstr ""
+"Automatisch das Videoformat auswählen, das den eigenen Qualitätsansprüchen "
+"entspricht"
+
+#: data/com.github.unrud.VideoDownloader.metainfo.xml.in:20
+msgid "Based on yt-dlp."
+msgstr "Basiert auf yt-dlp."
+
+#. TRANSLATORS: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.github.unrud.VideoDownloader.desktop.in:14
+msgid "YouTube;Download;"
+msgstr "YouTube;Download;herunterladen;"
+
+#: data/com.github.unrud.VideoDownloader.desktop.in:17
+#: src/shortcuts_dialog.ui:39 src/window.ui:26
+msgid "New Window"
+msgstr "Neues Fenster"
+
+#: src/authentication_dialog.py:30
+msgid "Authentication Required"
+msgstr "Authentifizierung erforderlich"
+
+#: src/authentication_dialog.py:34 src/window.ui:245
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/authentication_dialog.py:46
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: src/authentication_dialog.py:46
+msgid "Skip"
+msgstr "Überspringen"
+
+#: src/authentication_dialog_login.ui:31
+#: src/authentication_dialog_password.ui:31
+msgid "The video is not public."
+msgstr "Video nicht öffentlich."
+
+#: src/authentication_dialog_login.ui:44
+msgid "Username"
+msgstr "Nutzername"
+
+#: src/authentication_dialog_login.ui:70
+#: src/authentication_dialog_password.ui:40
+msgid "Password"
+msgstr "Passwort"
+
+#: src/main.py:38
+msgid "Prefill URL field"
+msgstr "URL-Feld vorausfüllen"
+
+#: src/model.py:67
+msgid "Best"
+msgstr "Beste Verfügbare"
+
+#: src/model.py:68
+msgid "4320p (8K)"
+msgstr "4320p (8K)"
+
+#: src/model.py:69
+msgid "2160p (4K)"
+msgstr "2160p (4K)"
+
+#: src/model.py:70
+msgid "1440p (HD)"
+msgstr "1440p (HD)"
+
+#: src/model.py:71
+msgid "1080p (HD)"
+msgstr "1080p (HD)"
+
+#: src/model.py:72
+msgid "720p (HD)"
+msgstr "720p (HD)"
+
+#: src/model.py:73
+msgid "480p"
+msgstr "480p (SD)"
+
+#: src/model.py:74
+msgid "360p"
+msgstr "360p (SD)"
+
+#: src/model.py:75
+msgid "240p"
+msgstr "240p (SD)"
+
+#: src/model.py:76
+msgid "144p"
+msgstr "144p (SD)"
+
+#: src/model.py:159
+msgid "Invalid download folder"
+msgstr "Ungültiger Download-Ordner"
+
+#: src/model.py:280 src/model.py:286 src/window.py:358
+msgid "Not a directory"
+msgstr "Kein Verzeichnis"
+
+#: src/model.py:284 src/model.py:289
+msgid "Permission denied"
+msgstr "Zugriff verweigert"
+
+#: src/playlist_dialog.py:29
+msgid "Download Playlist?"
+msgstr "Wiedergabeliste herunterladen?"
+
+#: src/playlist_dialog.py:30
+msgid "The video is part of a playlist."
+msgstr "Video ist Teil einer Wiedergabeliste."
+
+#: src/playlist_dialog.py:32
+msgid "Single Video"
+msgstr "Einzelnes Video"
+
+#: src/playlist_dialog.py:33
+msgid "All Videos in Playlist"
+msgstr "Alle Videos der Wiedergabeliste"
+
+#: src/shortcuts_dialog.ui:29
+msgid "General"
+msgstr "Allgemein"
+
+#: src/shortcuts_dialog.ui:33
+msgid "Open Menu"
+msgstr "Menü öffnen"
+
+#: src/shortcuts_dialog.ui:45
+msgid "Close Window"
+msgstr "Fenster schließen"
+
+#: src/shortcuts_dialog.ui:51
+msgid "Quit"
+msgstr "Beenden"
+
+#: src/shortcuts_dialog.ui:57 src/window.ui:37
+msgid "Keyboard Shortcuts"
+msgstr "Tastenkürzel"
+
+#: src/shortcuts_dialog.ui:64
+msgid "Navigation"
+msgstr "Navigation"
+
+#: src/shortcuts_dialog.ui:68
+msgid "Go back"
+msgstr "Zurück gehen"
+
+#: src/shortcuts_dialog.ui:74
+msgid "Switch to Audio"
+msgstr "Zu Audio wechseln"
+
+#: src/shortcuts_dialog.ui:80
+msgid "Switch to Video"
+msgstr "Zu Video wechseln"
+
+#: src/window.py:187
+msgid "Downloading"
+msgstr "Herunterladen"
+
+#: src/window.py:189 src/window.py:209
+msgid "{} of {}"
+msgstr "{} von {}"
+
+#: src/window.py:210 src/window.py:211
+msgid "unknown"
+msgstr "unbekannt"
+
+#: src/window.py:281 src/window.ui:386
+msgid "Download failed"
+msgstr "Download fehlgeschlagen"
+
+#: src/window.py:285 src/window.ui:511
+msgid "Download finished"
+msgstr "Download abgeschlossen"
+
+#: src/window.py:291 src/window.ui:530
+msgid "Open Download Location"
+msgstr "Download-Speicherort öffnen"
+
+#: src/window.py:329
+msgid "Reset to Default"
+msgstr "Auf Standard zurücksetzen"
+
+#: src/window.py:330 src/window.py:363 src/window.ui:33
+msgid "Change Download Location"
+msgstr "Download-Speicherort ändern"
+
+#: src/window.py:360
+msgid "Invalid folder selected"
+msgstr "Ungültiger Ordner ausgewählt"
+
+#: src/window.py:364
+msgid "Select Folder"
+msgstr "Ordner auswählen"
+
+#: src/window.ui:41
+msgid "About Video Downloader"
+msgstr "Über Video Downloader"
+
+#: src/window.ui:91
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+#: src/window.ui:105
+msgid "Audio"
+msgstr "Audio"
+
+#: src/window.ui:127 src/window.ui:178
+msgid "URL"
+msgstr "URL"
+
+#: src/window.ui:137 src/window.ui:207
+msgid "Download"
+msgstr "Download"
+
+#: src/window.ui:156
+msgid "Video"
+msgstr "Video"
+
+#: src/window.ui:186
+msgid "Resolution"
+msgstr "Auflösung"
+
+#: src/window.ui:194
+msgid "Prefer MPEG format"
+msgstr "MPEG-Format bevorzugen"
+
+#: src/window.ui:338 src/window.ui:357 src/window.ui:463 src/window.ui:482
+msgid "Back"
+msgstr "Zurück"
+
+#: src/window.ui:405 src/window.ui:547
+msgid "Details"
+msgstr "Details"
